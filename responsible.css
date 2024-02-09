@@ -1,0 +1,159 @@
+@media screen and (max-width: 950px) {
+    .nav {
+        left: 0 !important;
+        bottom: 0 !important;
+        width: 100%;
+        height: 100px;
+    }
+
+    #close {
+        display: none !important;
+    }
+
+    .nav ul {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .nav ul li {
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    #bar {
+        display: none;
+    }
+    
+    .nav h1 {
+        display: none;
+    }
+    
+    #display1,
+    #display2,
+    #display4, 
+    .parent {
+        position: static;
+        width: 100%;
+        height: 86vh;
+    }
+
+    #display3 {
+        position: static;
+        display: block;
+        height: 1100px;
+    }
+
+    #display2 {
+        display: block;
+        height: 700px;
+    }
+
+    .proj{
+        border-radius: 0 20px;
+        min-height: 100px;
+        max-height: 2000px;
+    }
+}   
+
+@media screen and (max-width: 807px) {
+    #display1 .parent {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #display1 .parent .child-1,
+    #display1 .parent .child-2 {
+        position: static;
+    }
+
+    #display1 .parent .child-1 {    
+        width: 80%;
+        margin: 0 auto;
+        text-align: center  ;
+    }
+}
+
+@media screen and (max-width: 741px) {
+    #display3 {
+        height: 1200px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    #display3 {
+        height: 1300px;
+    }
+    
+    #display2 {
+        display: block;
+        width: 100%;
+        height: 750px;
+    }
+
+    #display2 .left {
+        margin: 0;
+    }
+
+    .resume div {
+        margin: 0;
+    }
+
+    #display2 .left img {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    #display3 {
+        height: 1400px;
+    }
+}
+
+@media screen and (max-width: 434px) {
+    #display3 {
+        height: 1500px;
+    }
+}
+
+@media screen and (max-width: 417px) {
+    #display3 {
+        height: 1600px;
+    }
+
+    .nav ul li {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    #display3 {
+        height: 1700px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    #display3 {
+        height: 1850px;
+    }
+
+    .nav ul li {
+        font-size: 12px;
+        margin: 5px 0;
+    }
+}
+
+@media screen and (max-width: 497px) {
+    #display4 {
+        height: 760px;
+    }
+
+    form {
+        margin: 40px 0;
+    }
+}
