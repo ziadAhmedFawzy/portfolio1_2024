@@ -130,7 +130,19 @@ body {
     font-size: 30px;
 }
 .parent .child-1 h3 {
+    position: relative;
     font-size: 40px;
+}
+
+.parent .child-1 h3::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    margin-left: 5px;
+    width: 5px;
+    border-radius: 200px 0 0 0;
+    height: 80%;
+    background-color: #2196f3;
 }
 
 .parent .child-2 {

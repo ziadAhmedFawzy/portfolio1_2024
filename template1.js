@@ -38,7 +38,7 @@ let ziadSay = setInterval(function() {
     }
     console.log()
     i++
-}, 100)
+}, 300)
 
 // create container of btns
 let containerBtns = document.createElement("div")

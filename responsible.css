@@ -157,3 +157,21 @@
         margin: 40px 0;
     }
 }
+
+@media screen and (max-width: 423px) {
+    .parent .child-1 h3 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .parent .child-1 h3 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .parent .child-1 h3 {
+        font-size: 25px;
+    }
+}
