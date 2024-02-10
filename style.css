@@ -330,6 +330,11 @@ body {
     list-style: none;
     padding: 10px;
     border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+.display4 ul li:hover {
+    background-color: #2196f3;
 }
 
 .display4 ul li a {
