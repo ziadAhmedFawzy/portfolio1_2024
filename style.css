@@ -143,6 +143,22 @@ body {
     border-radius: 200px 0 0 0;
     height: 80%;
     background-color: #2196f3;
+    animation-name: wait2;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wait2 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+
 }
 
 .parent .child-2 {
